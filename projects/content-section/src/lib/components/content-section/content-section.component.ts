@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { IContentSearchRequest } from '../model';
 import { ContentSectionService } from '../../services/content-section.service';
-import { IContent } from '@project-sunbird/common-consumption';
+import { IContent } from 'uphrh-common-consumption';
 import { Utility } from '../utility';
 import { Subject } from 'rxjs';
 
